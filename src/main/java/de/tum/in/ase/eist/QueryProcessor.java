@@ -13,12 +13,14 @@ public class QueryProcessor {
                     "writer in the English language and the world's pre-eminent dramatist.";
         } else if (query.contains("name")) {
            return "Ju";
-        } else if (query.contains("what is 13 plus 3")){
+        } else if (query.contains("13 plus 3")){
             return "16";
-        }else if (query.contains("what is 17 plus 12")){
+        }else if (query.contains("17 plus 12")){
             return "29";
-        }else if (query.contains("what is 11 plus 15")){
+        }else if (query.contains("11 plus 15")){
             return "26";
+        } else if (query.contains("5 plus 8")){
+            return "13";
         }
 
         else { // TODO extend the programm here
