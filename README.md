@@ -8,6 +8,7 @@ Fork this repo into your own GitHub account.
 Clone your fork locally and import the code into an IDE.
 It’s a Java / Gradle project.
 
+
 Run the main() method in ServerApplication. You should see the app running at http://localhost:8080.
 
 #### Push a change to trigger GitHub Actions
